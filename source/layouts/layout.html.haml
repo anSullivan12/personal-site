@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title Ashley the Coder
+    %meta{ content: "width=device-width, initial-scale=1.0", name: "viewport" }
+    %meta{ property: "og:site_name", content: "Cincinnati Juneteenth Festival" }
+
+    %script{:src => "//cdn.muicss.com/mui-0.10.3/extra/mui-combined.min.js"}
+    = stylesheet_link_tag "site"
+    = favicon_tag "favicon.ico"
+
+    = javascript_include_tag "site"
+
+  %body.mui-container
+    = partial "header"
+    = yield
