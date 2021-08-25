@@ -1,15 +1,15 @@
 %header
+  = link_to "index.html", class: "mui--text-title" do
+    Ashley the Coder
   %nav
-    %ul
-      %li
-        = link_to "https://twitter.com/ashleythecoder", target: "_blank" do
-          Twitter
-          %i.material-icons open_in_new
-      %li
-        = link_to "https://github.com/anSullivan12", target: "_blank" do
-          GitHub
-          %i.material-icons open_in_new
-      %li
-        = link_to "https://www.linkedin.com/in/ashleythecoder/", target: "_blank" do
-          LinkedIn
-          %i.material-icons open_in_new
+    = link_to "resume.html", class: "mui-btn mui-btn--accent" do
+      Resume
+    = link_to "https://twitter.com/ashleythecoder", class: "mui-btn mui-btn--accent", target: "_blank" do
+      Twitter
+      %i.material-icons open_in_new
+    = link_to "https://github.com/anSullivan12", class: "mui-btn mui-btn--accent", target: "_blank" do
+      GitHub
+      %i.material-icons open_in_new
+    = link_to "https://www.linkedin.com/in/ashleythecoder/", class: "mui-btn mui-btn--accent", target: "_blank" do
+      LinkedIn
+      %i.material-icons open_in_new
