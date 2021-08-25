@@ -17,3 +17,12 @@ header {
 .intro-container {
   margin-top: $gutter-size * 5;
 }
+
+// FOOTER PAGE STYLES
+footer {
+  background-color: #FFF;
+  bottom: $gutter-size;
+  padding: $gutter-size;
+  position: fixed;
+  width: 100%;
+}
