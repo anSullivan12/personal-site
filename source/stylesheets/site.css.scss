@@ -5,14 +5,15 @@ body {
   font-family: $sans-serif;
 }
 
-// HEADER STYLES //
+// HEADER LAYOUT STYLES //
 header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
+  margin: $gutter-size 0;
 }
 
-// ABOUT PAGE STYLES //
-.profile-pic {
-  border-radius: 50%;
-  width: 25%;
+// INDEX PAGE STYLES //
+.intro-container {
+  margin-top: $gutter-size * 5;
 }
