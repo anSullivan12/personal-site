@@ -5,24 +5,35 @@ body {
   font-family: $sans-serif;
 }
 
+.flex-container {
+  display: flex;
+}
+
 // HEADER LAYOUT STYLES //
 header {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin: $gutter-size 0;
+  .material-icons {
+    font-size: 16px;
+  }
 }
 
 // INDEX PAGE STYLES //
-.intro-container {
+.intro-container,
+.profile-image {
   margin-top: $gutter-size * 5;
+}
+.profile-image {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
 }
 
 // FOOTER PAGE STYLES
 footer {
   background-color: #FFF;
-  bottom: $gutter-size;
-  padding: $gutter-size;
-  position: fixed;
+  padding: $gutter-size * 3 0;
   width: 100%;
 }
