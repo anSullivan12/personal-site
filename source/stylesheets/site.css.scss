@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color:#4527A0;
+  color:$eggplant;
   .material-icons {
     font-size: 16px;
   }
@@ -14,9 +14,9 @@ a {
 
 
 .mui-btn--accent {
-  background-color: #5E35B1;
+  background-color: $purple;
   &:hover {
-    background-color: #4527A0;
+    background-color: $eggplant;
   }
 }
 
@@ -54,8 +54,23 @@ p.mui--text-display3 {
   margin: 0 auto;
   max-width: 780px;
 
+  input[type=text],
+  input[type=email],
+  textarea {
+    border-bottom: 1px solid $gray-border;
+    &:focus {
+      border-color: $purple;
+    }
+  }
+
+  textarea {
+    border: 1px solid $misty-gray;
+    border-radius: 2px;
+    padding: 10px;
+  }
+
   input[type=submit] {
-    background-color: #5E35B1;
+    background-color: $purple;
     border: none;
     border-radius: 2px;
     color: #FFF;
