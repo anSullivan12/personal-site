@@ -1,121 +1,120 @@
-%section.resume-container
-  .mui-container-fluid
-    %h1.mui--text-display1 Resume
-    %p I began coding HTML and CSS in 2008 after changing my major from Journalism to Visual Communication Technology. At the time, I did all of my coding in Dreamweaver and learned a little Flash; despite my frustration with ActionScript, I enjoyed coding and decided to further transition my career aspirations to be a web designer. After I graduated in 2011, I moved to Washington state for my first post-grad job and the beginning of my career.
-    %nav.mui--text-center
-      = link_to "#skills", class: "mui-btn mui-btn--accent" do
-        Skills
-      = link_to "#education", class: "mui-btn mui-btn--accent" do
-        Education
-      = link_to "#volunteering", class: "mui-btn mui-btn--accent" do
-        Volunteering
-      = link_to "#career", class: "mui-btn mui-btn--accent" do
-        Career
-    %h2#skills.mui--text-headline Skills
-    %ul
-      %li HTML and Haml
-      %li CSS and SCSS
-      %li JavaScript
-      %li Vue
-      %li jQuery
-      %li Backbone.js
-      %li Ruby on Rails
-      %li accessibility
-      %li writing unit tests
-      %li organizing meeting agendas
-      %li version control, particularly with GitHub
-      %li cross browser testing
-      %li building out user testing experiences
-      %li building email templates
-    %h3 Passions
-    %ul
-      %li Making the web accessible for as many users as possible.
-      %li Mentoring newer developers.
-      %li Community outreach.
-      %li Helping others.
-    %h2#education.mui--text-headline Education
-    %p
-      = link_to "https://www.bgsu.edu/", class: "mui--text-subhead", target: "_blank" do
-        Bowling Green State University
-        %i.material-icons open_in_new
-      %br
-      Graduated August 2011
-      %br
-      Degree: Bachelor of Science
-      %br
-      Major: Visual Communication Technology
+%section.mui-container-fluid
+  %h1.mui--text-display1 Resume
+  %p I began coding HTML and CSS in 2008 after changing my major from Journalism to Visual Communication Technology. At the time, I did all of my coding in Dreamweaver and learned a little Flash; despite my frustration with ActionScript, I enjoyed coding and decided to further transition my career aspirations to be a web designer. After I graduated in 2011, I moved to Washington state for my first post-grad job and the beginning of my career.
+  %nav.mui--text-center
+    = link_to "#skills", class: "mui-btn mui-btn--accent" do
+      Skills
+    = link_to "#education", class: "mui-btn mui-btn--accent" do
+      Education
+    = link_to "#volunteering", class: "mui-btn mui-btn--accent" do
+      Volunteering
+    = link_to "#career", class: "mui-btn mui-btn--accent" do
+      Career
+  %h2#skills.mui--text-headline Skills
+  %ul
+    %li HTML and Haml
+    %li CSS and SCSS
+    %li JavaScript
+    %li Vue
+    %li jQuery
+    %li Backbone.js
+    %li Ruby on Rails
+    %li accessibility
+    %li writing unit tests
+    %li organizing meeting agendas
+    %li version control, particularly with GitHub
+    %li cross browser testing
+    %li building out user testing experiences
+    %li building email templates
+  %h3 Passions
+  %ul
+    %li Making the web accessible for as many users as possible.
+    %li Mentoring newer developers.
+    %li Community outreach.
+    %li Helping others.
+  %h2#education.mui--text-headline Education
+  %p
+    = link_to "https://www.bgsu.edu/", class: "mui--text-subhead", target: "_blank" do
+      Bowling Green State University
+      %i.material-icons open_in_new
+    %br
+    Graduated August 2011
+    %br
+    Degree: Bachelor of Science
+    %br
+    Major: Visual Communication Technology
 
-    %h2#volunteering.mui--text-headline Volunteering
-    %p
-      = link_to "https://treehouseanimals.org/", class: "mui--text-subhead", target: "_blank" do
-        Tree House Humane Society
-        %i.material-icons open_in_new
-      %br
-      2015 thru 2017
-      %br
-      Animal Assisted Therapy volunteer
-    %h2#career.mui--text-headline Career
-    %p
-      = link_to "https://www.bradsdeals.com/?tid=2432713", class: "mui--text-subhead", target: "_blank" do
-        Brad's Deals
-        %i.material-icons open_in_new
-      %br
-      August 2016 to Present Day
-      %br
-      Hired as Front End Developer and promoted to Front End Developer August 2017
-      %br
-      %ul.career-highlights
-        %li raised awareness on a company level about accessibility
-        %li vetted software to discover accessibility issues on our site
-        %li set goals for my team to improve our accessibility practices
-        %li planned and implemented a new workflow for the team to help us reach those goals
-        %li developed Acquistion flows using Backbone.js and Ruby on Rails
-        %li later moved the Acquisiton flows to Vue
-        %li built A/B testing experiences using Dynamic Yield, HTML, CSS, and JS
-        %li built email templates that reached our 7 million subscribers daily
-        %li implemented a Brand redesign for bradsdeals.com and axis.bradsdeals.com
-        %li moved our About Us site from WordPress to our Ruby on Rails stack
-        %li organized and led discussions in Brad's Mosaic, our Diversity, Equity, and Inclusion group
-        %li organized and led Mosaic's Book Club
-    %p
-      = link_to "https://www.crateandbarrel.com/", class: "mui--text-subhead", target: "_blank" do
-        Crate&Barrel
-        %i.material-icons open_in_new
-      %br
-      November 2013 to August 2016
-      %br
-      Visual Designer
-      %br
-      %ul.career-highlights
-        %li designed landing pages for marketing campaigns
-        %li built landing pages with HTML and CSS
-        %li designed advertisement images for other websites to use
-        %li advocated for more accessible web designs
-        %li designed assets for multiple promotions
-        %li used Optimizely to build tests for the Brand team
-        %li built landing pages for Crate's other brands, CB2 and the Land of Nod
-    %p
-      %span.mui--text-subhead TrainSignal (now part of PluralSight)
-      %br
-      January 2013 to August 2013
-      %br
-      Interactive Designer
-      %br
-      %ul.career-highlights
-        %li built user interfaces for learning dashboard
-        %li designed marketing banners
-        %li built marketing banners in Flash and HTML
-        %li used CSS animations to imrpove user's experience
-        %li designed and built marketing portion of the website
-        %li designed printed materials to hand out at Tech conferences
-    %p
-      = link_to "https://www.coffeycomm.com/", class: "mui--text-subhead", target: "_blank" do
-        Coffey Communications
-        %i.material-icons open_in_new
-      %br
-      November 2011 to January 2013
-      %br
-      Web Designer
-      %br
-      %ul.career-highlights
-        %li designed and built multiple websites for different healthcare clients
+  %h2#volunteering.mui--text-headline Volunteering
+  %p
+    = link_to "https://treehouseanimals.org/", class: "mui--text-subhead", target: "_blank" do
+      Tree House Humane Society
+      %i.material-icons open_in_new
+    %br
+    2015 thru 2017
+    %br
+    Animal Assisted Therapy volunteer
+  %h2#career.mui--text-headline Career
+  %p
+    = link_to "https://www.bradsdeals.com/?tid=2432713", class: "mui--text-subhead", target: "_blank" do
+      Brad's Deals
+      %i.material-icons open_in_new
+    %br
+    August 2016 to Present Day
+    %br
+    Hired as Front End Developer and promoted to Front End Developer August 2017
+    %br
+    %ul.career-highlights
+      %li raised awareness on a company level about accessibility
+      %li vetted software to discover accessibility issues on our site
+      %li set goals for my team to improve our accessibility practices
+      %li planned and implemented a new workflow for the team to help us reach those goals
+      %li developed Acquistion flows using Backbone.js and Ruby on Rails
+      %li later moved the Acquisiton flows to Vue
+      %li built A/B testing experiences using Dynamic Yield, HTML, CSS, and JS
+      %li built email templates that reached our 7 million subscribers daily
+      %li implemented a Brand redesign for bradsdeals.com and axis.bradsdeals.com
+      %li moved our About Us site from WordPress to our Ruby on Rails stack
+      %li organized and led discussions in Brad's Mosaic, our Diversity, Equity, and Inclusion group
+      %li organized and led Mosaic's Book Club
+  %p
+    = link_to "https://www.crateandbarrel.com/", class: "mui--text-subhead", target: "_blank" do
+      Crate&Barrel
+      %i.material-icons open_in_new
+    %br
+    November 2013 to August 2016
+    %br
+    Visual Designer
+    %br
+    %ul.career-highlights
+      %li designed landing pages for marketing campaigns
+      %li built landing pages with HTML and CSS
+      %li designed advertisement images for other websites to use
+      %li advocated for more accessible web designs
+      %li designed assets for multiple promotions
+      %li used Optimizely to build tests for the Brand team
+      %li built landing pages for Crate's other brands, CB2 and the Land of Nod
+  %p
+    %span.mui--text-subhead TrainSignal (now part of PluralSight)
+    %br
+    January 2013 to August 2013
+    %br
+    Interactive Designer
+    %br
+    %ul.career-highlights
+      %li built user interfaces for learning dashboard
+      %li designed marketing banners
+      %li built marketing banners in Flash and HTML
+      %li used CSS animations to imrpove user's experience
+      %li designed and built marketing portion of the website
+      %li designed printed materials to hand out at Tech conferences
+  %p
+    = link_to "https://www.coffeycomm.com/", class: "mui--text-subhead", target: "_blank" do
+      Coffey Communications
+      %i.material-icons open_in_new
+    %br
+    November 2011 to January 2013
+    %br
+    Web Designer
+    %br
+    %ul.career-highlights
+      %li designed and built multiple websites for different healthcare clients

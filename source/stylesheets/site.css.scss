@@ -6,7 +6,7 @@ body {
 }
 
 a {
-  color:#4527A0;
+  color:$eggplant;
   .material-icons {
     font-size: 16px;
   }
@@ -14,9 +14,9 @@ a {
 
 
 .mui-btn--accent {
-  background-color: #5E35B1;
+  background-color: $purple;
   &:hover {
-    background-color: #4527A0;
+    background-color: $eggplant;
   }
 }
 
@@ -47,6 +47,58 @@ header {
 }
 p.mui--text-display3 {
   line-height: 1.1;
+}
+
+// CONTACT PAGE STYLES //
+.contact {
+  margin: 0 auto;
+  max-width: 780px;
+
+  input[type=text],
+  input[type=email],
+  textarea {
+    border-bottom: 1px solid $gray-border;
+    &:focus {
+      border-color: $purple;
+    }
+  }
+
+  textarea {
+    border: 1px solid $misty-gray;
+    border-radius: 2px;
+    padding: 10px;
+  }
+
+  input[type=submit] {
+    background-color: $purple;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    height: 36px;
+    line-height: 18px;
+    margin: 6px 0;
+    padding: 0 26px;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: inherit;
+    letter-spacing: .03em;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 // FOOTER PAGE STYLES
