@@ -1,0 +1,18 @@
+%section.mui-container-fluid.contact
+  %h1 Contact
+  %p I enjoy meeting new people and would love to meet you. Please fill out the form below if you would like to discuss accessibility, code, or freelance development work.
+  %p All fields required.
+  %form.mui-form{:action => "https://formspree.io/ashleythecoder@gmail.com", "data-parsley-validate" => "", :method => "post"}
+    %label.mui-textfield{:for => "Name"}
+      Name
+      %input#Name{"data-parsley-required" => "true", :name => "name", :placeholder => "Your Name", :type => "text"}/
+    %label.mui-textfield{:for => "Email"}
+      Email
+      %input#Email{"data-parsley-required" => "true", "data-parsley-type" => "email", :name => "_replyto", :placeholder => "Email Address", :type => "email"}/
+    %label.mui-textfield{:for => "Subject"}
+      Subject
+      %input#Subject{"data-parsley-required" => "true", :name => "_subject", :placeholder => "What do you want to talk about?", :type => "text"}/
+    %label.mui-textfield{:for => "Message"}
+      Message
+      %textarea#Message{:cols => "30", "data-parsley-required" => "true", :name => "message", :placeholder => "Tell me what you're thinking.", :rows => "10"}
+    %input{:type => "submit"}/
