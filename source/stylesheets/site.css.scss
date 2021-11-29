@@ -49,6 +49,23 @@ p.mui--text-display3 {
   line-height: 1.1;
 }
 
+@media only screen and (max-width: 1000px) {
+  body {
+    font-size: 16px;
+  }
+  header {
+    flex-direction: column;
+    nav {
+      text-align: center;
+    }
+  }
+  .intro-container {
+    margin-top: 0;
+  }
+  .profile-image {
+    display: none;
+  }
+}
 // CONTACT PAGE STYLES //
 .contact {
   margin: 0 auto;
